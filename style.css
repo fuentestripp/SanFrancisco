@@ -1,0 +1,108 @@
+body {
+  font-family:sans-serif;
+  background-color: #ffdb4d;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 100px;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 400%;
+  padding: 20px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+
+#navbar {
+  width: 100%;
+  background-color: #97140e;
+  justify-content: center;
+  align-content: center;
+}
+
+
+#navbar ul {
+  display: flex;
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+#navbar li {
+  color: #DAA520;
+
+}
+#navbar li a{
+  text-align: center;
+  display: block;
+  color: #ffdb4d;
+  font-family: 'Manrope', sans-serif;
+  padding: 3vh 10vh;
+  font-size: 20pt;
+}
+
+
+#GridContent{
+  margin-top: 0;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-column-gap: 3vmin;
+  grid-row-gap: 1vmin;
+  background-color: #F0FFFF opacity 0;
+  font-size: 12pt;
+}
+
+.Items{
+  display: flex;
+  flex-direction: column;
+  padding: 1vmin;
+  color: #A9A9A9;
+  border: 4.5px solid black;
+  height: 100%;
+  background-color: #F0FFFF;
+}
+
+.contentImage {
+  width: 43vw;
+}
+
+#TheFall{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  padding-left: 5px;
+  font-family: 'Baloo Bhaina 2';
+
+}
