@@ -5,7 +5,7 @@ let jSonDatabase = [
     "title" : "The Runner",
     "picture_url" : "FrankGore.jpg",
     "background_color" : "#",
-    "reasons" : "A Hall of Fame Back. Shifty when needed, Sturdy when needed. A great release in the event of receivers not getting open (Which happened a lot). The Inconvenient Truth rumbled and stumbled his way to first down after first down, and is currently 5th all time in rushing yards"
+    "reasons" : "A Hall of Fame Back. Shifty when needed, sturdy when needed. A great release in the event of receivers not getting open (which happened a lot). The Inconvenient Truth rumbled and stumbled his way to first down after first down, and is currently 5th all time in rushing yards"
   },
 
   {

@@ -10,7 +10,7 @@ body {
   position: fixed;
   right: 0;
   bottom: 0;
-  top: 100px;
+  top: 110px;
   min-width: 100%;
   min-height: 100%;
 }
@@ -97,12 +97,15 @@ body {
 }
 
 #TheFall{
-  display: flex;
+  display: grid;
   flex-direction: column;
   justify-content: center;
   width: auto;
   text-align: center;
   padding-left: 5px;
   font-family: 'Baloo Bhaina 2';
+  margin-left: 220px;
+  margin-right: 220px;
+
 
 }
