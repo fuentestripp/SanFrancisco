@@ -99,6 +99,7 @@ body {
 }
 
 #TheFall{
+  padding-top: 25px;
   display: grid;
   flex-direction: column;
   justify-content: center;
